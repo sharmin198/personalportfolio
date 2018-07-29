@@ -1,0 +1,119 @@
+body{background:#333;color:#fff;}
+
+.navbar{border-bottom:3px solid #008ed6;background:#292b2c;opacity:0.7;}
+
+
+
+#home-section{
+	background:url('../images/home.jpeg') no-repeat center top;
+	background-size:cover;
+	background-attachment:fixed;
+	min-height:400px;
+}
+#home-section .dark-overlay{
+	background:rgba(0,0,0,0.7);
+	min-height:700px;
+}
+#home-section .home-inner{ 
+	position: absolute;
+	top:45%;
+	transform:translateY(-50%);
+	text-align:center;
+	width:100%;
+}
+#about{
+	min-height: 20px;
+}
+#contact{
+	background: url('../images/contact.jpeg') no-repeat center top;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.footer{
+	background: #E5E5E5;
+}
+.socile ul{
+	position:absolute;
+	left:50%;
+	transform:translate(-50%,-50%);
+	margin:0;
+	padding:0;
+	display:flex;
+}
+.socile ul li{list-style:none;}
+.socile ul li a{
+	position:relative;
+	width:60px;
+	height:60px;
+	display:block;
+	background:#f1f1f1;
+	text-align:center;
+	margin:0 10px;
+	border-radius:50%;
+	padding:6px;
+	box-sizing:border-box;
+	text-decoration:none;
+	
+	background:linear-gradient(0deg, #ddd, #fff);
+	transition:.5s;
+}
+.socile ul li a:hover{
+
+}
+.socile ul li a .fab{
+	width:100%;
+	height:100%;
+	display:block;
+	background:linear-gradient(0deg, #fff, #ddd);
+	border-radius:50%;
+	line-height:calc(60px - 12px);
+	font-size:24px;
+	color:#262626;
+	transition:.5s;
+}
+.socile ul li:nth-child(1) a:hover .fab{
+	color:#3b5999;
+}
+.socile ul li:nth-child(2) a:hover .fab{
+	color:#55acee;
+}
+.socile ul li:nth-child(3) a:hover .fab{
+	color:#dd4b39;
+}
+.socile ul li:nth-child(4) a:hover .fab{
+	color:#0077B5;
+}
+.socile ul li:nth-child(5) a:hover .fab{
+	color:#24292E;
+}
+
+.skillBox p:nth-child(2){
+	float:right;
+	position: relative;
+	top:-40px;
+}
+.skill{
+	background: #262626;
+	padding: 4px;
+	box-sizing: border-box;
+	border:1px solid #0fffb7;
+	border-radius: 2px;
+}
+.skill-level{
+	 background: #0fffb7;
+	 width:100%;
+	 height: 10px;
+}
+.bg{
+	background: #EBEDEF;
+	text-align: center;
+	padding:10px;
+	box-shadow:0 10px 15px rgba(0,0,0,0.3);
+	height: 250px;
+}
+.bg .fas,.fab{
+	font-size: 50px;
+}
+.bg:hover{
+	box-shadow:0 2px 5px rgba(0,0,0,0.3);
+}
